@@ -28,7 +28,7 @@
       @click="getChallenge()"
       :loading="loading"
       :class="{
-        'animate-pulse border-purple-600': loading
+        'animate-pulse border-purple-600 shadow-purple-600': loading
       }" />
   </div>
 </template>
