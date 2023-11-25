@@ -21,14 +21,7 @@ export default defineEventHandler(async () => {
         'Diamond Pushups'
     ]
 
-    const times = [
-        '10',
-        '20',
-        '30',
-        '40',
-        '50',
-        '60',
-    ]
+    const times = [10, 20, 30, 40, 50, 60]
 
     const getTask = () => {
         const randomIndex = Math.floor(Math.random() * tasks.length)
